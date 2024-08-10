@@ -1,16 +1,17 @@
-# Ignore node_modules directory
+# Node modules
 node_modules/
 
-# Ignore environment variables file
+# Environment variables
 .env
 
-# Ignore package-lock.json file
-package-lock.json
-
-# Ignore logs and temporary files
-*.log
-temp/
-
-# Ignore system-specific files
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Other files
+config/database.js
+emailService.js
