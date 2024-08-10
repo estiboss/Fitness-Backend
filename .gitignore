@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore logs and temporary files
+*.log
+temp/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
